@@ -68,6 +68,13 @@
 		75BF0EB71C5ADE1B00E0DAB6 /* FBRCDCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BF0EAB1C5ADE1B00E0DAB6 /* FBRCDCollectionTests.m */; };
 		75BF0EB91C5ADE1B00E0DAB6 /* FBRetainCycleDetectorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75BF0EAD1C5ADE1B00E0DAB6 /* FBRetainCycleDetectorTests.mm */; };
 		75BF0EBA1C5ADE1B00E0DAB6 /* FBStructEncodingParserTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75BF0EAE1C5ADE1B00E0DAB6 /* FBStructEncodingParserTests.mm */; };
+		D73648AA2C747BD100EBAE9B /* FBClassSwiftHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = D73648A82C747BD100EBAE9B /* FBClassSwiftHelpers.h */; };
+		D73648AB2C747BD100EBAE9B /* FBClassSwiftHelpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = D73648A92C747BD100EBAE9B /* FBClassSwiftHelpers.mm */; };
+		D73648AD2C747C5100EBAE9B /* FBObjectReferenceWithLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D73648AC2C747C5100EBAE9B /* FBObjectReferenceWithLayout.h */; };
+		D73648B12C747DF600EBAE9B /* FBSwiftReference.h in Headers */ = {isa = PBXBuildFile; fileRef = D73648AF2C747DF600EBAE9B /* FBSwiftReference.h */; };
+		D73648B22C747DF600EBAE9B /* FBSwiftReference.m in Sources */ = {isa = PBXBuildFile; fileRef = D73648B02C747DF600EBAE9B /* FBSwiftReference.m */; };
+		D73648BD2C74834F00EBAE9B /* SwiftIntrospector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73648BB2C74834F00EBAE9B /* SwiftIntrospector.swift */; };
+		D73648BE2C74834F00EBAE9B /* SwiftIntrospectionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73648BC2C74834F00EBAE9B /* SwiftIntrospectionKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +153,13 @@
 		75BF0EAC1C5ADE1B00E0DAB6 /* FBRetainCycleDetectorTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FBRetainCycleDetectorTests-Info.plist"; sourceTree = "<group>"; };
 		75BF0EAD1C5ADE1B00E0DAB6 /* FBRetainCycleDetectorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBRetainCycleDetectorTests.mm; sourceTree = "<group>"; };
 		75BF0EAE1C5ADE1B00E0DAB6 /* FBStructEncodingParserTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBStructEncodingParserTests.mm; sourceTree = "<group>"; };
+		D73648A82C747BD100EBAE9B /* FBClassSwiftHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBClassSwiftHelpers.h; sourceTree = "<group>"; };
+		D73648A92C747BD100EBAE9B /* FBClassSwiftHelpers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBClassSwiftHelpers.mm; sourceTree = "<group>"; };
+		D73648AC2C747C5100EBAE9B /* FBObjectReferenceWithLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBObjectReferenceWithLayout.h; sourceTree = "<group>"; };
+		D73648AF2C747DF600EBAE9B /* FBSwiftReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSwiftReference.h; path = "../../../../../../../Documents/Project/!IAmDigits/Pos/POS/dnero-ios-pos/iOS/POS/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Reference/FBSwiftReference.h"; sourceTree = "<group>"; };
+		D73648B02C747DF600EBAE9B /* FBSwiftReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSwiftReference.m; path = "../../../../../../../Documents/Project/!IAmDigits/Pos/POS/dnero-ios-pos/iOS/POS/Pods/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Reference/FBSwiftReference.m"; sourceTree = "<group>"; };
+		D73648BB2C74834F00EBAE9B /* SwiftIntrospector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIntrospector.swift; sourceTree = "<group>"; };
+		D73648BC2C74834F00EBAE9B /* SwiftIntrospectionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIntrospectionKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +350,10 @@
 				75BF0E5D1C5ADD3100E0DAB6 /* FBClassStrongLayout.mm */,
 				75BF0E5E1C5ADD3100E0DAB6 /* FBClassStrongLayoutHelpers.h */,
 				75BF0E5F1C5ADD3100E0DAB6 /* FBClassStrongLayoutHelpers.m */,
+				D73648A82C747BD100EBAE9B /* FBClassSwiftHelpers.h */,
+				D73648A92C747BD100EBAE9B /* FBClassSwiftHelpers.mm */,
+				D73648BC2C74834F00EBAE9B /* SwiftIntrospectionKit.swift */,
+				D73648BB2C74834F00EBAE9B /* SwiftIntrospector.swift */,
 				75BF0E601C5ADD3100E0DAB6 /* Parser */,
 				75BF0E671C5ADD3100E0DAB6 /* Reference */,
 			);
@@ -358,11 +376,14 @@
 		75BF0E671C5ADD3100E0DAB6 /* Reference */ = {
 			isa = PBXGroup;
 			children = (
+				D73648AC2C747C5100EBAE9B /* FBObjectReferenceWithLayout.h */,
 				75BF0E681C5ADD3100E0DAB6 /* FBIvarReference.h */,
 				75BF0E691C5ADD3100E0DAB6 /* FBIvarReference.m */,
 				75BF0E6A1C5ADD3100E0DAB6 /* FBObjectInStructReference.h */,
 				75BF0E6B1C5ADD3100E0DAB6 /* FBObjectInStructReference.m */,
 				75BF0E6C1C5ADD3100E0DAB6 /* FBObjectReference.h */,
+				D73648AF2C747DF600EBAE9B /* FBSwiftReference.h */,
+				D73648B02C747DF600EBAE9B /* FBSwiftReference.m */,
 			);
 			path = Reference;
 			sourceTree = "<group>";
@@ -381,6 +402,7 @@
 				75BF0E7A1C5ADD3100E0DAB6 /* FBStandardGraphEdgeFilters.h in Headers */,
 				75BF0E6D1C5ADD3100E0DAB6 /* FBAssociationManager.h in Headers */,
 				75BF0E7E1C5ADD3100E0DAB6 /* FBObjectiveCGraphElement.h in Headers */,
+				D73648AD2C747C5100EBAE9B /* FBObjectReferenceWithLayout.h in Headers */,
 				75BDB3771C80E64100FD53A9 /* FBObjectGraphConfiguration.h in Headers */,
 				75BF0E801C5ADD3100E0DAB6 /* FBObjectiveCObject.h in Headers */,
 				75BF0E8F1C5ADD3100E0DAB6 /* Struct.h in Headers */,
@@ -398,8 +420,10 @@
 				75BF0E871C5ADD3100E0DAB6 /* FBBlockStrongLayout.h in Headers */,
 				750866201CD6E387007CD157 /* BaseType.h in Headers */,
 				75BF0E761C5ADD3100E0DAB6 /* FBRetainCycleUtils.h in Headers */,
+				D73648B12C747DF600EBAE9B /* FBSwiftReference.h in Headers */,
 				75BF0E8B1C5ADD3100E0DAB6 /* FBClassStrongLayout.h in Headers */,
 				75BF0E6F1C5ADD3100E0DAB6 /* FBAssociationManager+Internal.h in Headers */,
+				D73648AA2C747BD100EBAE9B /* FBClassSwiftHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,9 +477,11 @@
 				TargetAttributes = {
 					75BF0E171C5ADBCC00E0DAB6 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 1520;
 					};
 					75BF0E261C5ADCA200E0DAB6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7AM452PK4F;
 					};
 				};
 			};
@@ -464,6 +490,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 75BF0E0E1C5ADBCC00E0DAB6;
@@ -511,6 +538,7 @@
 				75BF0E7B1C5ADD3100E0DAB6 /* FBStandardGraphEdgeFilters.mm in Sources */,
 				75BF0E711C5ADD3100E0DAB6 /* FBNodeEnumerator.mm in Sources */,
 				75BF0E8C1C5ADD3100E0DAB6 /* FBClassStrongLayout.mm in Sources */,
+				D73648BE2C74834F00EBAE9B /* SwiftIntrospectionKit.swift in Sources */,
 				75BF0E941C5ADD3100E0DAB6 /* FBStructEncodingParser.mm in Sources */,
 				75BF0E901C5ADD3100E0DAB6 /* Struct.mm in Sources */,
 				75BF0E771C5ADD3100E0DAB6 /* FBRetainCycleUtils.m in Sources */,
@@ -518,7 +546,10 @@
 				74C01572205943710020B6F0 /* rcd_fishhook.c in Sources */,
 				75BF0E811C5ADD3100E0DAB6 /* FBObjectiveCObject.m in Sources */,
 				75BF0E8E1C5ADD3100E0DAB6 /* FBClassStrongLayoutHelpers.m in Sources */,
+				D73648AB2C747BD100EBAE9B /* FBClassSwiftHelpers.mm in Sources */,
+				D73648B22C747DF600EBAE9B /* FBSwiftReference.m in Sources */,
 				75BF0E961C5ADD3100E0DAB6 /* FBIvarReference.m in Sources */,
+				D73648BD2C74834F00EBAE9B /* SwiftIntrospector.swift in Sources */,
 				75BF0E7D1C5ADD3100E0DAB6 /* FBObjectiveCBlock.m in Sources */,
 				75BF0E7F1C5ADD3100E0DAB6 /* FBObjectiveCGraphElement.mm in Sources */,
 			);
@@ -644,6 +675,7 @@
 		75BF0E211C5ADBCC00E0DAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -655,12 +687,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBRetainCycleDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		75BF0E221C5ADBCC00E0DAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -672,12 +707,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBRetainCycleDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		75BF0E301C5ADCA200E0DAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7AM452PK4F;
 				INFOPLIST_FILE = "FBRetainCycleDetectorTests/FBRetainCycleDetectorTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBRetainCycleDetectorTests;
@@ -688,6 +726,8 @@
 		75BF0E311C5ADCA200E0DAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7AM452PK4F;
 				INFOPLIST_FILE = "FBRetainCycleDetectorTests/FBRetainCycleDetectorTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBRetainCycleDetectorTests;
