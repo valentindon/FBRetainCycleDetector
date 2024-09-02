@@ -477,6 +477,7 @@
 				TargetAttributes = {
 					75BF0E171C5ADBCC00E0DAB6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7AM452PK4F;
 						LastSwiftMigration = 1520;
 					};
 					75BF0E261C5ADCA200E0DAB6 = {
@@ -677,12 +678,15 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7AM452PK4F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/FBRetainCycleDetector/FBRetainCycleDetector-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBRetainCycleDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -697,12 +701,15 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7AM452PK4F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/FBRetainCycleDetector/FBRetainCycleDetector-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBRetainCycleDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
